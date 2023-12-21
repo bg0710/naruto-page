@@ -1,0 +1,164 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html{
+    background-color: #eb5e28;
+}
+
+body{
+    padding: 60px;  
+    border-radius: 20px;
+    background-color: #000814;
+    display: flex;
+    display: block;
+    color: #fefcfb;
+}
+.topic{
+    font-family: 'Aboreto', cursive;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    padding: 40px;
+    border-bottom: 1px solid #fefcfb ;
+}
+
+.panel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex: 1 1;
+    margin-top: 40px;
+}
+.initial,.later{
+
+    padding: 50px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 60px 30px;
+    width: 320px;
+    height: 550px;
+    border: 1px solid white;
+}
+.initial{
+    transition: 0.12s;
+    font-size: 30px;
+    text-shadow: 7px 7px 7px black;
+    text-align: center;
+    position: absolute;
+}
+.initial:hover{
+    opacity: 0;
+}
+.later{
+    font-size: 19px;
+}
+#one .initial{
+    
+    box-shadow: 1px 1px 30px #ff7b00;
+    background-image: url("https://i.pinimg.com/736x/07/45/a9/0745a9c0f86faf719a98c07e10453e4b.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#one .later{
+    
+    background-color: #0b132b;
+}
+
+#two .initial{
+    box-shadow: 1px 1px 30px #89c2d9;
+    background-image: url("http://pm1.narvii.com/6682/1ab55f2456165ce3d6a52a6a5dd76bb72383cff0_00.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#two .later{
+    
+    background-color: #0b132b;
+}
+#three .initial{
+    box-shadow: 1px 1px 30px #a4161a;
+    background-image: url("https://www.astucesmobiles.com/wp-content/uploads/2022/03/itachi-uchiha-wallpaper-ixpap-9-500x773.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#three .later{
+    
+    background-color: #370617;
+}
+#four .initial{
+    box-shadow: 1px 1px 30px #4f772d;
+    background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/6484.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#four .later{
+    
+    background-color: #081c15;
+}
+#five .initial{
+    box-shadow: 1px 1px 30px #5a189a;
+    background-image: url("https://i1.sndcdn.com/artworks-flVMHt0yHwtiyTld-eqxeSg-t500x500.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#five .later{
+    
+    background-color: #230c33;
+}
+#six .initial{
+    box-shadow: 1px 1px 30px #fff;
+    background-image: url("http://pm1.narvii.com/6715/303ab26c38eab59ede26248555228df8902e7137_00.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#six .later{
+    
+    background-color: #000814;
+}
